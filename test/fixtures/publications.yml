@@ -1,0 +1,25 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+publication_invalido_uno:
+  name: 'Re'
+  deit: 2022-11-14
+  comment: MyText
+  tag: 'Rico'
+
+publication_invalido_dos:
+  name: <% 1*10 %>
+  deit: 2022-11-14
+  comment: 'MyText'
+  tag: 'Rico'
+
+publication_invalido_tres:
+  name: nil
+  deit: 2022-11-14
+  comment: 'MyText'
+  tag: 'Rico'
+
+publication_invalido_cuatro:
+  name: ""
+  deit: 2022-11-14
+  comment: 'MyText'
+  tag: 'Rico'
